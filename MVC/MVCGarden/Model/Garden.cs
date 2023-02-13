@@ -22,7 +22,7 @@ namespace MVCGarden.Model
         public int KgPlodove { get; set; }
         public decimal KalkuliraneNaSuma()
         {
-            return 1.94m * (this.KgPlodove * this.CenaPlodove + this.KgZelenchuci * this.CenaZelenchuci);
+            return (this.KgPlodove * this.CenaPlodove + this.KgZelenchuci * this.CenaZelenchuci)/1.94m;
         }
     }
 }

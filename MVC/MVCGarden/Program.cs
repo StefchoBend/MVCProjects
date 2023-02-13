@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using MVCGarden.Controllers;
 
 namespace MVCGarden
 {
@@ -8,7 +9,7 @@ namespace MVCGarden
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GardenController controller = new GardenController();
         }
     }
 }
