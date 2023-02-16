@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCGarden", "MVCGarden\MVCGarden.csproj", "{2453B047-9FE4-4039-B3E0-331156B8CD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCGarden", "MVCGarden\MVCGarden.csproj", "{2453B047-9FE4-4039-B3E0-331156B8CD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenaZaTransport", "CenaZaTransport\CenaZaTransport.csproj", "{208C4612-7BC5-439E-8A79-58776D0384D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2453B047-9FE4-4039-B3E0-331156B8CD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2453B047-9FE4-4039-B3E0-331156B8CD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2453B047-9FE4-4039-B3E0-331156B8CD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208C4612-7BC5-439E-8A79-58776D0384D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208C4612-7BC5-439E-8A79-58776D0384D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208C4612-7BC5-439E-8A79-58776D0384D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208C4612-7BC5-439E-8A79-58776D0384D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
